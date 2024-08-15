@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirección Automática</title>
-     <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <title>Ir a la Nueva Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #0C3630; /* Fondo completo */
@@ -15,19 +15,34 @@
             align-items: center; /* Centrado vertical */
             height: 100vh; /* Altura completa de la ventana */
             margin: 0; /* Sin margen */
+            text-align: center; /* Alinear texto al centro */
         }
-        h1 {
-            font-size: 40px; /* Tamaño de la tipografía */
+        button {
+            font-family: "Squada One", Sans-serif; /* Tipografía del botón */
+            font-size: 18px; /* Tamaño de la tipografía */
+            font-weight: 700; /* Peso de la fuente */
+            color: #0c3630; /* Color del texto */
+            background-color: #00e000; /* Color de fondo del botón */
+            border-style: solid; /* Estilo del borde */
+            border-color: #00e000; /* Color del borde */
+            border-radius: 5px 30px 5px 30px; /* Bordes redondeados */
+            padding: 10px 15px; /* Padding del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+            transition: background-color 0.3s; /* Transición suave para el color de fondo */
+        }
+        button:hover {
+            background-color: white; /* Cambio de color al pasar el mouse */
+            color: #0c3630; /* Cambio de color del texto al pasar el mouse */
         }
     </style>
-    <script>
-        // Redirigir a la URL especificada después de 0 segundos
-        window.onload = function() {
-            window.location.href = "https://abdieldesigner.42web.io/";
-        };
-    </script>
 </head>
 <body>
-    <h1>Ya vamos pa' esa...</h1>
+    <div>
+        <img fetchpriority="high" decoding="async" width="300"  src="https://abdieldesigner.x10.mx/wp-content/uploads/2024/08/foto-perfil-Abdiel-DIseno-web-Diferente-creativo-959x1024.webp" class="attachment-large size-large lazyautosizes lazyloaded">
+        <h1>Bienvenido</h1>
+        <a href="https://abdieldesigner.42web.io/">
+            <button>Ir a la nueva web</button>
+        </a>
+    </div>
 </body>
 </html>
